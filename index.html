@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header d-flex justify-content-between text-center p-5">
+                        <img src="img/meal-icon.png" alt="">
+                        <div class="header-content mt-5">
+                            <h2 class="text-white">Welcome to TheMealDB</h2>
+                            <p>Welcome to TheMealDB: An open, crowd-sourced database of Recipes from around the world.
+                                We also offer a free JSON API for anyone wanting to use it, with additional features for subscribers.</p>
+                            <button class="btn btn-warning">Offiial Website</button>
+                            <div class="form-inline d-flex mt-4" >
+                                <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-warning my-2 my-sm-0" type="submit" it="search-buuton" onclick="serarchFood()">Search</button>
+                            </div>
+                        </div>
+                        <img src="img/meal-icon.png" alt="">
+                    </div>
+                    <p><hr/></p> 
+                </div>
+            </div>
+        </div>
+    </header>
+    
+   
+    <script src="js/mealdb_api.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
